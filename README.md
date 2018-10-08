@@ -14,4 +14,8 @@ php bin/console server:run
 2) the future DB will be sym_02
 
 ### install security-checker for composer
-composer resuire sensiolabs/security-checker --dev
+1) composer require sensiolabs/security-checker --dev
+2) test it with : composer update
+
+### create DB
+php bin/console doctrine:database:create
