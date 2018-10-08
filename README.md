@@ -1,4 +1,9 @@
 # sym02
 ##Website-skeleton
 
-### work processus
+### work process
+
+### update dependencies
+1) composer update
+### server
+php bin/console server:run
