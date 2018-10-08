@@ -19,3 +19,21 @@ php bin/console server:run
 
 ### create DB
 php bin/console doctrine:database:create
+
+### create an antity like a table for mysql
+php bin/console make:entity
+>article
+>titre
+>? view al suggestion
+>string
+>150
+>no
+>description
+>text
+>no
+>temps
+>datetime
+>yes
+>auteur
+>string
+>no
